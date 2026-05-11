@@ -1,6 +1,6 @@
 // ============================================
 // FLASHCARDS - Umlaute ä, ö, ü + Au/Äu
-// Claudia Toth · A0.1 · Lecția 4 · 32 carduri
+// Claudia Toth · A0 — Fonetică · Lecția 4 · 32 carduri
 // Audio profesional pre-generat cu Hedda
 // ============================================
 

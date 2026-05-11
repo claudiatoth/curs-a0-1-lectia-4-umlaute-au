@@ -1,6 +1,6 @@
 // ============================================
 // TEORIE - UMLAUTE ä, ö, ü + ZWIELAUT Au/Äu
-// Claudia Toth · Curs A0.1 · Lecția 4 din 7
+// Claudia Toth · A0 — Fonetică · Lecția 4 din 7
 // ============================================
 
 const theoryHTML = `

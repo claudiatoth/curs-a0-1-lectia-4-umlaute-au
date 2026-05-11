@@ -1,6 +1,6 @@
 // ============================================
 // TEST FINAL - Umlaute ä, ö, ü + Au/Äu
-// Claudia Toth · A0.1 · Lecția 4 · 15 întrebări mixte
+// Claudia Toth · A0 — Fonetică · Lecția 4 · 15 întrebări mixte
 // ============================================
 
 const finalTestData = [
