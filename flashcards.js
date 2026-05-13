@@ -6,7 +6,7 @@
 
 const flashcardsData = [
     // ========== Ä/ä (8 carduri) ==========
-    { de: "der Bär", ro: "ursul · ä = „e" deschis → bɛ:r", audio: "audio/letters/baer.wav" },
+    { de: "der Bär", ro: "ursul · ä = „e” deschis → bɛ:r", audio: "audio/letters/baer.wav" },
     { de: "der März", ro: "martie (luna) · → mɛ:rț", audio: "audio/letters/maerz.wav" },
     { de: "das Mädchen", ro: "fata · → mɛ:dhăn", audio: "audio/letters/maedchen.wav" },
     { de: "später", ro: "mai târziu · → ștpɛ:tăr", audio: "audio/letters/spaeter.wav" },
@@ -16,7 +16,7 @@ const flashcardsData = [
     { de: "er gräbt", ro: "el sapă (graben → gräbt la pers. 3 sg.)", audio: "audio/letters/graebt.wav" },
 
     // ========== Ö/ö (8 carduri) ==========
-    { de: "der Hörer", ro: "ascultătorul · ö = „o" cu limba sus → hø:răr", audio: "audio/letters/hoerer.wav" },
+    { de: "der Hörer", ro: "ascultătorul · ö = „o” cu limba sus → hø:răr", audio: "audio/letters/hoerer.wav" },
     { de: "böse", ro: "supărat / rău · → bø:ze", audio: "audio/letters/boese.wav" },
     { de: "schön", ro: "frumos · → șø:n (NU schon!)", audio: "audio/letters/schoen.wav" },
     { de: "der König", ro: "regele · → cø:nih", audio: "audio/letters/koenig.wav" },
@@ -26,7 +26,7 @@ const flashcardsData = [
     { de: "die Wörter", ro: "cuvintele (plural din das Wort)", audio: "audio/letters/woerter.wav" },
 
     // ========== Ü/ü (8 carduri) ==========
-    { de: "das Büro", ro: "biroul · ü = „u" cu limba sus → by:ro", audio: "audio/letters/buero.wav" },
+    { de: "das Büro", ro: "biroul · ü = „u” cu limba sus → by:ro", audio: "audio/letters/buero.wav" },
     { de: "bügeln", ro: "a călca rufe · → by:găln", audio: "audio/letters/buegeln.wav" },
     { de: "die Tür", ro: "ușa · → ty:r", audio: "audio/letters/tuer.wav" },
     { de: "müde", ro: "obosit · → my:de", audio: "audio/letters/muede.wav" },
@@ -36,12 +36,12 @@ const flashcardsData = [
     { de: "das Stühlchen", ro: "scăunașul (diminutiv din der Stuhl)", audio: "audio/letters/stuehlchen.wav" },
 
     // ========== Au + Äu (8 carduri) ==========
-    { de: "das Auto", ro: "mașina · au = „au" → auto", audio: "audio/letters/auto.wav" },
+    { de: "das Auto", ro: "mașina · au = „au” → auto", audio: "audio/letters/auto.wav" },
     { de: "der Baum", ro: "pomul / copacul · → baum", audio: "audio/letters/baum.wav" },
     { de: "der Schaum", ro: "spuma / clăbucul · → șaum", audio: "audio/letters/schaum.wav" },
     { de: "das Haus", ro: "casa · → haus", audio: "audio/letters/haus.wav" },
-    { de: "die Häuser", ro: "casele (plural au → äu = „oi") → hoizăr", audio: "audio/letters/haeuser.wav" },
-    { de: "die Bäume", ro: "pomii (plural au → äu = „oi") → boime", audio: "audio/letters/baeume.wav" },
+    { de: "die Häuser", ro: "casele (plural au → äu = „oi”) → hoizăr", audio: "audio/letters/haeuser.wav" },
+    { de: "die Bäume", ro: "pomii (plural au → äu = „oi”) → boime", audio: "audio/letters/baeume.wav" },
     { de: "das Häuschen", ro: "căsuța (diminutiv) → hoishăn", audio: "audio/letters/haeuschen.wav" },
     { de: "die Frau", ro: "femeia · au la sfârșit → rămâne au la plural: die Frauen", audio: "audio/letters/frau.wav" }
 ];
