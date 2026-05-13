@@ -32,34 +32,25 @@ const theoryHTML = `
             <div class="theory-box">
                 <h4>📌 Când apar umlautele? — 3 contexte tipice</h4>
                 <table class="theory-table">
-                    <thead><tr><th>Context</th><th>Exemple</th></tr></thead>
+                    <thead><tr><th>Context</th><th>Exemplu · traducere</th></tr></thead>
                     <tbody>
                         <tr>
-                            <td><strong>Plural substantive</strong></td>
-                            <td>
-                                das Bl<strong>a</strong>tt → die Bl<strong>ä</strong>tter<br>
-                                der S<strong>o</strong>hn → die S<strong>ö</strong>hne<br>
-                                der F<strong>u</strong>ß → die F<strong>ü</strong>ße<br>
-                                <span class="ro-translation">frunza/frunzele · fiul/fiii · piciorul/picioarele</span>
-                            </td>
+                            <td rowspan="3"><strong>Plural substantive</strong></td>
+                            <td>das Bl<strong>a</strong>tt → die Bl<strong>ä</strong>tter · <span class="ro-translation">frunza / frunzele</span></td>
                         </tr>
+                        <tr><td>der S<strong>o</strong>hn → die S<strong>ö</strong>hne · <span class="ro-translation">fiul / fiii</span></td></tr>
+                        <tr><td>der F<strong>u</strong>ß → die F<strong>ü</strong>ße · <span class="ro-translation">piciorul / picioarele</span></td></tr>
                         <tr>
-                            <td><strong>Diminutive</strong> (cu -chen)</td>
-                            <td>
-                                der H<strong>a</strong>se → das H<strong>ä</strong>schen<br>
-                                die H<strong>o</strong>se → das H<strong>ö</strong>schen<br>
-                                der St<strong>u</strong>hl → das St<strong>ü</strong>hlchen<br>
-                                <span class="ro-translation">iepurele/iepurașul · pantalonul/pantalonașul · scaunul/scăunașul</span>
-                            </td>
+                            <td rowspan="3"><strong>Diminutive</strong> (cu -chen)</td>
+                            <td>der H<strong>a</strong>se → das H<strong>ä</strong>schen · <span class="ro-translation">iepurele / iepurașul</span></td>
                         </tr>
+                        <tr><td>die H<strong>o</strong>se → das H<strong>ö</strong>schen · <span class="ro-translation">pantalonul / pantalonașul</span></td></tr>
+                        <tr><td>der St<strong>u</strong>hl → das St<strong>ü</strong>hlchen · <span class="ro-translation">scaunul / scăunașul</span></td></tr>
                         <tr>
-                            <td><strong>Verbe la pers. 2 și 3 sg.</strong></td>
-                            <td>
-                                gr<strong>a</strong>ben → du gr<strong>ä</strong>bst, er gr<strong>ä</strong>bt<br>
-                                f<strong>a</strong>hren → du f<strong>ä</strong>hrst, er f<strong>ä</strong>hrt<br>
-                                <span class="ro-translation">a săpa · a merge cu un vehicul</span>
-                            </td>
+                            <td rowspan="2"><strong>Verbe la pers. 2 și 3 sg.</strong></td>
+                            <td>gr<strong>a</strong>ben → du gr<strong>ä</strong>bst, er gr<strong>ä</strong>bt · <span class="ro-translation">a săpa</span></td>
                         </tr>
+                        <tr><td>f<strong>a</strong>hren → du f<strong>ä</strong>hrst, er f<strong>ä</strong>hrt · <span class="ro-translation">a merge cu un vehicul</span></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -97,25 +88,13 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>der Bär</strong><br>
-                            <strong>der März</strong><br>
-                            <strong>das Mädchen</strong><br>
-                            <strong>später</strong><br>
-                            <strong>die Träne</strong>
-                        </td>
-                        <td>
-                            bɛ:r (r nazal)<br>
-                            mɛ:rț<br>
-                            mɛ:dhăn<br>
-                            ștpɛ:tăr<br>
-                            trɛ:ne<br>
-                            <span class="ro-translation">ursul · martie · fata · mai târziu · lacrima</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>der Bär</strong></td><td>bɛ:r (r nazal)</td><td><span class="ro-translation">ursul</span></td></tr>
+                    <tr><td><strong>der März</strong></td><td>mɛ:rț</td><td><span class="ro-translation">martie</span></td></tr>
+                    <tr><td><strong>das Mädchen</strong></td><td>mɛ:dhăn</td><td><span class="ro-translation">fata</span></td></tr>
+                    <tr><td><strong>später</strong></td><td>ștpɛ:tăr</td><td><span class="ro-translation">mai târziu</span></td></tr>
+                    <tr><td><strong>die Träne</strong></td><td>trɛ:ne</td><td><span class="ro-translation">lacrima</span></td></tr>
                 </tbody>
             </table>
 
@@ -155,25 +134,13 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>der Hörer</strong><br>
-                            <strong>böse</strong><br>
-                            <strong>schön</strong><br>
-                            <strong>der König</strong><br>
-                            <strong>hören</strong>
-                        </td>
-                        <td>
-                            hø:răr (r nazal)<br>
-                            bø:ze<br>
-                            șø:n<br>
-                            cø:nih<br>
-                            hø:răn<br>
-                            <span class="ro-translation">ascultătorul · supărat/rău · frumos · regele · a auzi</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>der Hörer</strong></td><td>hø:răr (r nazal)</td><td><span class="ro-translation">ascultătorul</span></td></tr>
+                    <tr><td><strong>böse</strong></td><td>bø:ze</td><td><span class="ro-translation">supărat / rău</span></td></tr>
+                    <tr><td><strong>schön</strong></td><td>șø:n</td><td><span class="ro-translation">frumos</span></td></tr>
+                    <tr><td><strong>der König</strong></td><td>cø:nih</td><td><span class="ro-translation">regele</span></td></tr>
+                    <tr><td><strong>hören</strong></td><td>hø:răn</td><td><span class="ro-translation">a auzi</span></td></tr>
                 </tbody>
             </table>
 
@@ -218,27 +185,14 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>das Büro</strong><br>
-                            <strong>bügeln</strong><br>
-                            <strong>die Tür</strong><br>
-                            <strong>müde</strong><br>
-                            <strong>fünf</strong><br>
-                            <strong>grün</strong>
-                        </td>
-                        <td>
-                            by:ro<br>
-                            by:găln<br>
-                            ty:r<br>
-                            my:de<br>
-                            fünf<br>
-                            grün<br>
-                            <span class="ro-translation">biroul · a călca rufe · ușa · obosit · cinci · verde</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>das Büro</strong></td><td>by:ro</td><td><span class="ro-translation">biroul</span></td></tr>
+                    <tr><td><strong>bügeln</strong></td><td>by:găln</td><td><span class="ro-translation">a călca rufe</span></td></tr>
+                    <tr><td><strong>die Tür</strong></td><td>ty:r</td><td><span class="ro-translation">ușa</span></td></tr>
+                    <tr><td><strong>müde</strong></td><td>my:de</td><td><span class="ro-translation">obosit</span></td></tr>
+                    <tr><td><strong>fünf</strong></td><td>fünf</td><td><span class="ro-translation">cinci</span></td></tr>
+                    <tr><td><strong>grün</strong></td><td>grün</td><td><span class="ro-translation">verde</span></td></tr>
                 </tbody>
             </table>
 
@@ -275,23 +229,12 @@ const theoryHTML = `
             <h4 style="color: #065f46;">📌 Au/au — diftong simplu</h4>
             <p><strong>Au/au</strong> se citește exact ca <strong>„au"</strong> în română.</p>
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>das Auto</strong><br>
-                            <strong>der Baum</strong><br>
-                            <strong>der Schaum</strong><br>
-                            <strong>das Haus</strong>
-                        </td>
-                        <td>
-                            auto<br>
-                            baum<br>
-                            șaum<br>
-                            haus<br>
-                            <span class="ro-translation">mașina · pomul · spuma · casa</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>das Auto</strong></td><td>auto</td><td><span class="ro-translation">mașina</span></td></tr>
+                    <tr><td><strong>der Baum</strong></td><td>baum</td><td><span class="ro-translation">pomul</span></td></tr>
+                    <tr><td><strong>der Schaum</strong></td><td>șaum</td><td><span class="ro-translation">spuma</span></td></tr>
+                    <tr><td><strong>das Haus</strong></td><td>haus</td><td><span class="ro-translation">casa</span></td></tr>
                 </tbody>
             </table>
 
@@ -326,35 +269,26 @@ const theoryHTML = `
             <div class="theory-box" style="background: #fef3c7; border-color: #f59e0b;">
                 <h4>⚠️ 3 EXCEPȚII — au RĂMÂNE „au" la plural</h4>
                 <table class="theory-table">
-                    <thead><tr><th>Regulă</th><th>Exemple</th></tr></thead>
+                    <thead><tr><th>Regulă</th><th>Exemplu · traducere</th></tr></thead>
                     <tbody>
                         <tr>
-                            <td><strong>1. au + b</strong> (urmat de b)</td>
-                            <td>
-                                die Ta<strong>u</strong>be → die Tauben<br>
-                                die Tra<strong>u</strong>be → die Trauben<br>
-                                die Schra<strong>u</strong>be → die Schrauben<br>
-                                <span class="ro-translation">porumbița · strugurele · șurubul</span>
-                            </td>
+                            <td rowspan="3"><strong>1. au + b</strong> (urmat de b)</td>
+                            <td>die Ta<strong>u</strong>be → die Tauben · <span class="ro-translation">porumbița</span></td>
                         </tr>
+                        <tr><td>die Tra<strong>u</strong>be → die Trauben · <span class="ro-translation">strugurele</span></td></tr>
+                        <tr><td>die Schra<strong>u</strong>be → die Schrauben · <span class="ro-translation">șurubul</span></td></tr>
                         <tr>
-                            <td><strong>2. au la începutul</strong> cuvântului</td>
-                            <td>
-                                das <strong>Au</strong>ge → die Augen<br>
-                                das <strong>Au</strong>to → die Autos<br>
-                                die <strong>Au</strong>fgabe → die Aufgaben<br>
-                                <span class="ro-translation">ochiul · mașina · tema</span>
-                            </td>
+                            <td rowspan="3"><strong>2. au la începutul</strong> cuvântului</td>
+                            <td>das <strong>Au</strong>ge → die Augen · <span class="ro-translation">ochiul</span></td>
                         </tr>
+                        <tr><td>das <strong>Au</strong>to → die Autos · <span class="ro-translation">mașina</span></td></tr>
+                        <tr><td>die <strong>Au</strong>fgabe → die Aufgaben · <span class="ro-translation">tema</span></td></tr>
                         <tr>
-                            <td><strong>3. au la sfârșitul</strong> cuvântului</td>
-                            <td>
-                                der St<strong>au</strong> → die Staus<br>
-                                die Fr<strong>au</strong> → die Frauen<br>
-                                der Pf<strong>au</strong> → die Pfauen<br>
-                                <span class="ro-translation">aglomerația · femeia · păunul</span>
-                            </td>
+                            <td rowspan="3"><strong>3. au la sfârșitul</strong> cuvântului</td>
+                            <td>der St<strong>au</strong> → die Staus · <span class="ro-translation">aglomerația</span></td>
                         </tr>
+                        <tr><td>die Fr<strong>au</strong> → die Frauen · <span class="ro-translation">femeia</span></td></tr>
+                        <tr><td>der Pf<strong>au</strong> → die Pfauen · <span class="ro-translation">păunul</span></td></tr>
                     </tbody>
                 </table>
             </div>
